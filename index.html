@@ -1,35 +1,32 @@
-﻿﻿<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angry Birds Vs Green Pig 2 Game To Play Online</title>
-    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-    <script src="https://apis.google.com/js/platform.js"></script>
+    <title>Angry Birds vs Green Pig 2</title>
+    <script src="ruffle/ruffle.js"></script> <!-- Ruffle script -->
     <style>
         body {
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
-            justify-content: flex-start;
+            height: 100vh;
             margin: 0;
-            padding: 10px;
             background-color: #000000;
-            font-family: Arial, sans-serif;
         }
-        .game-container {
-            width: 1000px;
-            height: 800x;
-            background-color: #000;
-            overflow: hidden;
-            position: relative;
-        }      
+        #flash-container {
+            border: 1px solid #000;
+        }
     </style>
 </head>
 <body>
-    <!-- Juego incrustado -->
-    <div class="game-container" id="gameContainer">
-        <embed src="Angry Birds vs Green Pig 2.swf" id="gameEmbed" width="100%" height="100%">
+    <div id="flash-container">
+        <object data="Angry Birds vs Green Pig 2.swf
+" type="application/x-shockwave-flash" width="800" height="600">
+            <param name="allowScriptAccess" value="always">
+            <param name="allowFullScreen" value="true">
+            Your browser does not support Flash. 
+        </object>
     </div>
 </body>
 </html>
